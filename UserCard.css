@@ -1,0 +1,33 @@
+.container{
+    width: 400spx;
+    background: linear-gradient(to top, rgb(255,255,255)70%, rgb(52,162,184) 30%);
+    border: 2px solid lightgrey;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo{
+    width:70px;
+    margin: 10px 0px 0px 0px;
+}
+.name{
+    font-size: 13px;
+}
+.location{
+    font-size: 12px;
+}
+.map-marker{
+    width: 15px;
+}
+.info{
+    font-size: 12px;
+}
+.settings{
+    font-size: 12px;
+    color: blue;
+    text-decoration: blue underline;
+}
+img{
+    width: 15px;
+    margin: 3px;
+    align-items: center;
+}
