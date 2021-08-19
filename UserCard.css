@@ -1,16 +1,26 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
 .container{
-    width: 400spx;
+    width: 400px;
     background: linear-gradient(to top, rgb(255,255,255)70%, rgb(52,162,184) 30%);
     border: 2px solid lightgrey;
-    padding: 20px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    /* align-items: center; */
+    /* align-content: center; */
 }
 .photo{
-    width:70px;
+    width:100px;
     margin: 10px 0px 0px 0px;
+    padding: 20px 0px 0px 20px;
 }
 .name{
     font-size: 13px;
+    padding: 0px 0px 0px 20px;
 }
 .location{
     font-size: 12px;
@@ -19,15 +29,18 @@
     width: 15px;
 }
 .info{
-    font-size: 12px;
+    font-size: 15px;
+    padding: 0px 0px 0px 20px;
 }
 .settings{
     font-size: 12px;
     color: blue;
     text-decoration: blue underline;
+    padding-bottom: 20px;
 }
 img{
     width: 15px;
     margin: 3px;
-    align-items: center;
+    padding: 0px 0px 0px 20px;
+    /* align-items: center; */
 }
